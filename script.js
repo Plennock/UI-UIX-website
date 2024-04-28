@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
             backgroundColor: 'rgba(0, 0, 255, 1)',
             borderWidth: 6,
             lineTension: 0.3,
-            pointRadius: 10, // Set the size of the data points
-            pointHoverRadius: 50 // Set the size of the data points on hover
+            pointRadius: 10,
+            pointHoverRadius: 50 
 
         }]
     };
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 }]
             },
-            // Set the chart background color to be transparent
+            
             plugins: {
                 legend: {
                     labels: {
@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             elements: {
                 line: {
-                    backgroundColor: 'rgba(0, 255, 0, 0)' // Transparent background color for the line
+                    backgroundColor: 'rgba(0, 255, 0, 0)'
                 }
             },
-            // Customize chart area border color
+            
             layout: {
                 padding: {
                     left: 10,
@@ -60,10 +60,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     position: 'bottom'
                 }
             },
-            // Customize chart area border color
+            
             elements: {
                 line: {
-                    borderColor: 'black' // Border color of the chart area
+                    borderColor: 'black'
                 }
             }
         }
