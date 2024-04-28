@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Kumbh Sans", sans-serif;
+}
+
+
+.main {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.button {
+	display: inline-block;
+	margin-right: 5%;
+	margin-bottom: 10%;
+	outline: none;
+	background: linear-gradient(45deg,#ffd800,#b200ff,#F03C6B,#F47639);
+	background-size: 300% 300%;
+	animation: color 12s ease-in-out infinite;
+	height: 25%;
+	width: 40%;
+	align-content: center;
+	font-size: 180%;
+	font-family: "Lucida Console", "Courier New", monospace;
+	border-radius: 15%;
+	transition: 0.5s ease;
+}
+
+.button:hover {
+	cursor: pointer;
+	height: 30%;
+	width: 45%;
+}
+
+.center {
+	width: 30%;
+	height: 100%;
+	margin: auto;
+}
+
+
+h1 {
+	display: inline;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(45deg,#b200ff,#F03C6B,#F47639,#ffd800);
+	background-size: 600% 600%;
+	animation: color 12s ease-in-out infinite;
+}
+@keyframes color {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+img{
+	cursor: pointer;
+	background: none;
+	height: 20%;
+	width: 10%;
+	border-radius: 10%;
+	transition: 0.5s ease;
+}
+
+img:hover {
+	cursor: pointer;
+	background: none;
+	height: 30%;
+	width: 15%;
+}
+
+.button-room {
+	display: inline-block;
+	margin-right: -1%;
+	margin-bottom: 0%;
+	outline: none;
+	background: linear-gradient(45deg,#b200ff,#F03C6B,#F47639,#ffd800);
+	background-size: 600% 600%;
+	animation: color 12s ease-in-out infinite;
+	height: 25%;
+	width: 40%;
+	align-content: center;
+	font-size: 180%;
+	font-family: "Lucida Console", "Courier New", monospace;
+	border-radius: 0%;
+	transition: 0.5s ease;
+}
+
+.button-room:hover {
+	cursor: pointer;
+	height: 30%;
+	width: 45%;
+}
+
+.chart {
+	margin: auto;
+	width: 60%;
+	height: 40%;
+	background-color: red;
+	fill: red;
+}
+
+label {
+	display: inline-block;
+	margin-right: 5%;
+	margin-bottom: 10%;
+	outline: none;
+	background: black;
+	height: 25%;
+	width: 40%;
+	align-content: center;
+	font-size: 180%;
+	font-family: "Lucida Console", "Courier New", monospace;
+	border-radius: 15%;
+	transition: 0.5s ease;
+}
+
+.graph-container {
+	width: 80%;
+	margin: 20px auto;
+}
+
+canvas {
+	border: 1px solid #ccc;
+}
